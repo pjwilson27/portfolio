@@ -22,7 +22,8 @@ theme_settings:
   email_address: "hello@hirephilwilson.com"# Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
-  dribbble: 
+  dribbble:
+  dropbox: "https://www.dropbox.com/s/hihd2f6lwz9n3du/Philip_Wilson_Resume0115.doc?dl=0"
   facebook: "xxspitfire27"
   flickr:
   github: "pjwilson27"
@@ -31,7 +32,6 @@ theme_settings:
   linkedin: "https://www.linkedin.com/in/philipjwilson/" # Full URL
   pinterest:
   reddit:
-  resume: "https://www.dropbox.com/s/hihd2f6lwz9n3du/Philip_Wilson_Resume0115.doc?dl=0"
   soundcloud:
   stack_exchange:  # Full URL
   steam:
