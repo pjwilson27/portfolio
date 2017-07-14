@@ -6,7 +6,7 @@ url: "http://www.hirephilwilson.com" # the base hostname & protocol for your sit
 theme_settings:
   # Meta
   title: Phil Wilson
-  avatar: avatar.png
+  avatar: phil1.jpg
   gravatar: # Email MD5 hash
   description: "Beautifying code, one key at a time." # used by search engines
 
@@ -31,6 +31,7 @@ theme_settings:
   linkedin: "https://www.linkedin.com/in/philipjwilson/" # Full URL
   pinterest:
   reddit:
+  resume: "https://www.dropbox.com/s/hihd2f6lwz9n3du/Philip_Wilson_Resume0115.doc?dl=0"
   soundcloud:
   stack_exchange:  # Full URL
   steam:
