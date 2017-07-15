@@ -2,8 +2,34 @@
 layout: post
 title: BlocJams
 feature-img: "img/sample_feature_img.png"
-thumbnail-path: "https://d13yacurqjgara.cloudfront.net/users/3217/screenshots/2030966/blocjams_1x.png"
-short-description: BlocJams for iOS is awesome!
+thumbnail-path: "http://img.photobucket.com/albums/v18/Nyghtmare/blocjams%202.png"
+short-description: A Spotify type of application.
 
 ---
-This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.
+BlocJams is an application I created during my time with Bloc. It utilizes a variety of HTML, CSS, JS, Angular, and Jquery.
+
+The primary use of this application is to present a list of songs from a given album, to allow the user to play, pause, and skip tracks.  The user would get the track information from the album, play the specific songs, and seek through different parts of the songs.
+
+
+
+The following highlights a bit of my code from the application:
+
+{% highlight javascript %}
+    var onHover = function(event) {
+        var songNumberCell = $(this).find('.song-item-number');
+        var songNumber = parseInt(songNumberCell.attr('data-song-number'));
+        
+        if(songNumber !== currentlyPlayingSongNumber) {
+            songNumberCell.html(playButtonTemplate);
+        }
+    };
+    
+    var offHover = function(event) {
+        var songNumberCell = $(this).find('.song-item-number');
+        var songNumber = parseInt(songNumberCell.attr('data-song-number'));
+        
+        if(songNumber !== currentlyPlayingSongNumber) {
+            songNumberCell.html(songNumber);
+        }
+    };
+{% endhighlight %}
